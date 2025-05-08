@@ -11,8 +11,10 @@
 - functions should do one thing and they should do it well
 - functions should have a constant level of abstraction, they should not be mixed like low level .append and high level like getHTML()
 - functions should be max 20 lines long
+- ideal no. of arguments for a function is 0(niladic), then one(monadic), followed by two(dyadic), more than them should be avoided
+- flag arguments like true/false should be avoided as it clearly hints that the function does more than one thing
 - functions should have no side-effects (function promises to do one thing, but it also does other hidden things)
-- output arguments should be avoided (addData(s) is ambiguous as it does not tell it's adding data to something else or to s)
+- output arguments should be avoided (addData(s) is ambiguous as it does not tell it's adding data to something else or to s), instead use setters of some class or object
 - the getters and the setters should be seperate
 - prefer exceptions rather than returning error codes, exceptions can be dealt with in try/catch blocks, while error codes need to be dealt with on the function calls
 - the real goal is to tell the story of the system
