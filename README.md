@@ -19,7 +19,12 @@
 - prefer exceptions rather than returning error codes, exceptions can be dealt with in try/catch blocks, while error codes need to be dealt with on the function calls
 - the real goal is to tell the story of the system
 
-
+#### ch-4 (comments)
+- comments are used to compensate for our failure to express ourself in code
+- some comments although are useful like regex code examples in comment
+- providing the intent behind a decision which was taken at the time
+- warning of consequences, useful and might prevent accidents, eg: warning the coder that the following test case is commented as it takes too long to run
+- TODO comments are beneficial : should explain why the function has a degenerate implementation and what that function's future should be
 
 ### Principal explanations: 
 
