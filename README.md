@@ -15,6 +15,7 @@
 - output arguments should be avoided (addData(s) is ambiguous as it does not tell it's adding data to something else or to s)
 - the getters and the setters should be seperate
 - prefer exceptions rather than returning error codes, exceptions can be dealt with in try/catch blocks, while error codes need to be dealt with on the function calls
+- the real goal is to tell the story of the system
 
 
 
