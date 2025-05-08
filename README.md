@@ -11,9 +11,10 @@
 - functions should have a constant level of abstraction, they should not be mixed like low level .append and high level like getHTML()
 - functions should be max 20 lines long
 - functions should have no side-effects (function promises to do one thing, but it also does other hidden things)
+- output arguments should be avoided (addData(s) is ambiguous as it does not tell it's adding data to something else or to s)
 
 
-### Principal explanatoins: 
+### Principal explanations: 
 
 #### SRP:
     One reason to change:
