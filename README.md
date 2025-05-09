@@ -25,6 +25,7 @@
 - providing the intent behind a decision which was taken at the time
 - warning of consequences, useful and might prevent accidents, eg: warning the coder that the following test case is commented as it takes too long to run
 - TODO comments are beneficial : should explain why the function has a degenerate implementation and what that function's future should be
+- leaving a commented out code should be strictly avoided
 
 ### Principal explanations: 
 
