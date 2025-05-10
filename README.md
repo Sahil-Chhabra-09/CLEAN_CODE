@@ -27,6 +27,9 @@
 - TODO comments are beneficial : should explain why the function has a degenerate implementation and what that function's future should be
 - leaving a commented out code should be strictly avoided
 
+#### ch-5 (formatting)
+- if one function calls another, they should be vertically close and the caller should be above the callee
+
 ### Principal explanations: 
 
 #### SRP:
