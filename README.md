@@ -30,6 +30,10 @@
 #### ch-5 (formatting)
 - if one function calls another, they should be vertically close and the caller should be above the callee
 
+#### ch-6 (objects and data structures)
+- objects do not expose data but just the functions/behaviour, so it is easy to add new classes but difficult to add new behaviour in existing ones
+- data-structures do not have any behaviour, they just expose data, so it is easy to add new behaviour/methods but hard to add new data as all functions must change
+
 ### Principal explanations: 
 
 #### SRP:
